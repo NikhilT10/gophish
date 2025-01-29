@@ -4,7 +4,7 @@
 		"use_tls": false,
 		"cert_path": "",
 		"key_path": "",
-		"trusted_origins": ["866.up.railway.app"]
+		"trusted_origins": ["197.up.railway.app"]
 	},
 	"phish_server": {
 		"listen_url": "0.0.0.0:80",
