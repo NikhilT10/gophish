@@ -2,22 +2,22 @@
 	"admin_server": {
 		"listen_url": "0.0.0.0:3333",
 		"use_tls": false,
-		"cert_path": "gophish_admin.crt",
-		"key_path": "gophish_admin.key",
-		"trusted_origins": [866c.up.railway.app]
+		"cert_path": "",
+		"key_path": "",
+		"trusted_origins": ["866.up.railway.app"]
 	},
 	"phish_server": {
 		"listen_url": "0.0.0.0:80",
 		"use_tls": false,
-		"cert_path": "example.crt",
-		"key_path": "example.key"
+		"cert_path": "",
+		"key_path": ""
 	},
 	"db_name": "sqlite3",
 	"db_path": "gophish.db",
 	"migrations_prefix": "db/db_",
 	"contact_address": "",
 	"logging": {
-		"filename": "",
-		"level": ""
+		"filename": "gophish.log",
+		"level": "error"
 	}
 }
